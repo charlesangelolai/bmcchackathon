@@ -9,7 +9,7 @@ import Footer from '../components/footer'
 import "./styles.scss"
 
 const SVG = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFF99" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,213.3C672,192,768,128,864,90.7C960,53,1056,43,1152,37.3C1248,32,1344,32,1392,32L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFF99" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,213.3C672,192,768,128,864,90.7C960,53,1056,43,1152,37.3C1248,32,1344,32,1392,32L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 )
 
 const DEADLINE = new Date("April 4, 2020 12:00:00:00").getTime();
@@ -66,17 +66,23 @@ class App extends Component {
         <section className="hero is-success is-fullheight">
           <div className="hero-body">
             <div className="container">
-              <h1 className="title">
-                PantherHacks II presents:
-              </h1>
-              <h2 className="title is-1">
-                Spring Sandbox
-              </h2>
-              <p>April 4, 2020</p>
-              <p id="countdown">{`${days}d ${hours}h ${minutes}m ${seconds}s`}</p>
-              <p>Borough of Manhattan Community College</p>
-              <button>Hacker Application</button>
-              <button>Volunteer Application</button>
+                <h3 className="subtitle is-3">
+                  PantherHacks II presents:
+                </h3>
+                <h2 className="title is-1">
+                  Spring Sandbox
+                </h2>
+                <p className="is-size-3 has-text-weight-semibold	">{`${days}d ${hours}h ${minutes}m ${seconds}s`}</p>
+                <p className="is-size-4	">April 4, 2020</p>
+                <p className="is-size-4	">Borough of Manhattan Community College</p>
+                <div className="field is-grouped" style={{ paddingTop: '20px' }}>
+                  <p className="control">
+                    <button className="button is-primary is-rounded">Hacker Application</button>
+                  </p>
+                  <p>
+                  <button className="button is-link is-rounded">Volunteer Application</button>
+                  </p>
+                </div>
             </div>
           </div>
         </section>
