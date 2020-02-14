@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `PantherHacks`,
-    siteUrl: ``,
+    siteUrl: `https://github.com/edwincarbajal/pantherhacks`,
     description: `PantherHacks II Spring 2020`,
   },
   plugins: [
