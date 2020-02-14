@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+// brand colors
+$light-yellow: #FFFF99;
+$bmcc-blue: #0051BB;
+$bmcc-orange: #FF6600;
+$gray: #FF6600;
+$light-blue: #A9CAED;
+$light-green: #CCFF99;
+
+// update bulma's global variables
+$success: $light-yellow;
+$footer-padding: 0rem 1.5rem 6rem 3rem;
+@import "~bulma/bulma.sass";
