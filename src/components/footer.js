@@ -26,7 +26,7 @@ export default () => (
           </div>
           <div className="column">
             <h5 className="is-uppercase has-text-white">Past Years</h5>
-            <a href="https://bmcchackathon.github.io/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'white' }}>PantherHacks I 2019</a>
+            <a href="https://bmcchackathon.github.io/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'white' }}>PantherHacks 2019</a>
           </div>
           <div className="column">
             <h5 className="has-text-white is-uppercase">Links</h5>
