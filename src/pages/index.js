@@ -64,7 +64,7 @@ class App extends Component {
     if (hours < "10") { hours = "0" + hours; }
     if (minutes < "10") { minutes = "0" + minutes; }
     if (seconds < "10") { seconds = "0" + seconds; }
-    
+
     if(t > 0) this.setState({ days, hours, minutes, seconds });
     else clearInterval(this.timerID);
   }
@@ -85,13 +85,9 @@ class App extends Component {
                 <p className="is-size-3 has-text-weight-semibold	">{`${days}d ${hours}h ${minutes}m ${seconds}s`}</p>
                 <p className="is-size-4	">April 4, 2020</p>
                 <p className="is-size-4	">Borough of Manhattan Community College</p>
-                <div className="field is-grouped" style={{ paddingTop: '20px' }}>
-                  <p className="control">
-                    <button className="button is-primary is-rounded">Hacker Application</button>
-                  </p>
-                  <p>
+                <div className="buttons" style={{ paddingTop: '20px' }}>
+                  <button className="button is-primary is-rounded">Hacker Application</button>
                   <button className="button is-link is-rounded">Volunteer Application</button>
-                  </p>
                 </div>
             </div>
           </div>
