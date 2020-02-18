@@ -16,7 +16,7 @@ export default () => (
           <p>Bring your student ID for entrance. You’ll also need your laptop and charger for hacking, and toiletries for hygiene.</p>
 
           <h4>How many team members?</h4>
-          <p>The maximum team members permitted per group is 4 humans and the minimum is two humans</p>
+          <p>The maximum team members permitted per group is 4 humans and the minimum is two humans.</p>
 
           <h4>Will this cost me money?</h4>
           <p>Nope! Admission is free and covers food, all the snacks you could ever want, and of course, our sponsors and PantherHacks will provide you with the free swag and fun times you need to have an amazing weekend!!</p>
