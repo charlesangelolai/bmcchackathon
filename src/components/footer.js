@@ -34,8 +34,8 @@ export default () => (
             <p>Volunteer Application</p>
           </div>
           <div className="column">
-            <p>Special thanks to Computer Programming Club and CSI Department!!</p>
-            <h6 className="has-text-white">Copyright &copy; 2020 PantherHacks.</h6>
+            <h6 className="has-text-white">Special thanks to Computer Programming Club and CSI Department!!</h6>
+            <p>Copyright &copy; 2020 PantherHacks.</p>
           </div>
         </div>
       </div>

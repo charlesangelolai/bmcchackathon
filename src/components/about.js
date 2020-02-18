@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => (
   <section className="hero is-medium">
-    <div className="hero-body" style={{ paddingTop: 0 }}>
+    <div className="hero-body">
       <div className="container">
         <div className="content">
           <h1 className="title has-text-centered">What is PantherHacks?</h1>

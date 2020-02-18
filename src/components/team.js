@@ -15,46 +15,46 @@ export default () => (
     <section className="hero is-medium has-text-centered">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Meet The Team</h1>
-          <div className="columns is-centered">
-            <div className="column is-narrow">
-              <figure className="image is-128x128">
+          <h1 className="title" style={{ paddingBottom: '50px' }}>Our Team</h1>
+          <div className="columns is-3">
+            <div className="column">
+              <figure className="image container is-128x128">
                 <img alt="" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
               </figure>
               <p className="has-text-weight-bold">Edwin Carbajal</p>
-              <p>CS 2020</p>
+              <p>Computer Science 2020</p>
             </div>
-            <div className="column is-narrow">
-              <figure className="image is-128x128">
+            <div className="column">
+              <figure className="image container is-128x128">
                 <img alt="" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
               </figure>
               <p className="has-text-weight-bold">Mehmet Sahin</p>
-              <p>Team</p>
+              <p>Computer Science 2019</p>
             </div>
-            <div className="column is-narrow">
-              <figure className="image is-128x128">
+            <div className="column">
+              <figure className="image container is-128x128">
                 <img alt="" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
               </figure>
-              <p className="has-text-weight-bold">Dr. Azhar</p>
-              <p>Team</p>
+              <p className="has-text-weight-bold">Dr. Mohammad Azhar</p>
+              <p>Assistant Professor of CIS</p>
             </div>
           </div>
-        </div>
-        <div className="columns is-centered is-flex">
-          <div className="column is-narrow">
-            <figure className="image is-128x128">
+        <div className="columns is-12">
+          <div className="column">
+            <figure className="image container is-128x128">
               <img alt="" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
             </figure>
             <p className="has-text-weight-bold">Thierry Thesatus</p>
-            <p>Team</p>
+            <p>Associate Director of Career Services</p>
           </div>
-          <div className="column is-narrow">
-            <figure className="image is-128x128">
+          <div className="column">
+            <figure className="image container is-128x128">
               <img alt="" className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
             </figure>
             <p className="has-text-weight-bold">Katherine Bedoya</p>
-            <p>Team</p>
+            <p>Employer Relations Coordinator</p>
           </div>
+        </div>
         </div>
       </div>
     </section>
