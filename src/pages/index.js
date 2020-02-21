@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+
+import Layout from '../components/layout'
 import About from '../components/about'
 import Itenerary from '../components/itenerary'
 import FAQ from '../components/faq'
 import Sponsors from '../components/sponsors'
 import Team from '../components/team'
-import Footer from '../components/footer'
 
 import "./styles.scss"
 
@@ -71,12 +72,12 @@ class App extends Component {
   render() {
     const { days, hours, minutes, seconds } = this.state;
     return(
-      <>
+      <Layout>
         <section className="hero is-success is-fullheight">
           <div className="hero-body">
             <div className="container">
                 <h3 className="subtitle is-3">
-                  PantherHacks II presents:
+                  BMCCHacks II presents:
                 </h3>
                 <h2 className="title is-1">
                   Spring Sandbox
@@ -86,7 +87,6 @@ class App extends Component {
                 <p className="is-size-4	">Borough of Manhattan Community College</p>
                 <div className="buttons" style={{ paddingTop: '20px' }}>
                   <button className="button is-primary is-rounded">Hacker Application</button>
-                  <button className="button is-link is-rounded">Volunteer Application</button>
                 </div>
             </div>
           </div>
@@ -97,8 +97,7 @@ class App extends Component {
         <FAQ />
         <Sponsors />
         <Team />
-        <Footer />
-      </>
+      </Layout>
     )
   }
 }
