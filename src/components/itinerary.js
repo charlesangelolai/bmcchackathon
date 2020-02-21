@@ -4,7 +4,7 @@ export default () => (
   <section className="hero is-light has-text-centered">
     <div className="hero-body">
       <div className="container">
-        <h1 className="title">Itenerary</h1>
+        <h1 className="title">Itinerary</h1>
         <p>TBA!</p>
       </div>
     </div>
