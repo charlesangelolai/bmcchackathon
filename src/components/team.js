@@ -4,7 +4,7 @@ const SponsorUs = () => (
   <section className="hero is-light has-text-centered">
     <div className="hero-body">
       <div className="container">
-        <p>Interested in sponsoring PantherHacks 2020? Contact us at {`<email@address>`}</p>
+        <p>Interested in sponsoring BMCCHacks 2020? Contact us at {`<email@address>`}</p>
       </div>
     </div>
   </section>

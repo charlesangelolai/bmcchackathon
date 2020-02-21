@@ -14,7 +14,7 @@ export default () => (
       <div className="content has-text-centered">
         <div className="columns">
           <div className="column">
-            <h5 className="has-text-white">PantherHacks II presents:</h5>
+            <h5 className="has-text-white">BMCCHacks II presents:</h5>
             <h3 className="has-text-white">Spring Sandbox</h3>
           </div>
           <div className="column">
@@ -26,7 +26,7 @@ export default () => (
           </div>
           <div className="column">
             <h5 className="is-uppercase has-text-white">Past Years</h5>
-            <a href="https://bmcchackathon.github.io/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'white' }}>PantherHacks 2019</a>
+            <a href="https://bmcchackathon.github.io/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'white' }}>BMCCHacks 2019</a>
           </div>
           <div className="column">
             <h5 className="has-text-white is-uppercase">Links</h5>
@@ -35,7 +35,7 @@ export default () => (
           </div>
           <div className="column">
             <h6 className="has-text-white">Special thanks to Computer Programming Club and CSI Department!!</h6>
-            <p>Copyright &copy; 2020 PantherHacks.</p>
+            <p>Copyright &copy; 2020 BMCCHacks.</p>
           </div>
         </div>
       </div>
