@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import Layout from '../components/layout'
 import About from '../components/about'
-import itinerary from '../components/itinerary'
+import Itinerary from '../components/itinerary'
 import FAQ from '../components/faq'
 import Sponsors from '../components/sponsors'
 import Team from '../components/team'
@@ -93,7 +93,7 @@ class App extends Component {
         </section>
         <HeaderWaves />
         <About />
-        <itinerary />
+        <Itinerary />
         <FAQ />
         <Sponsors />
         <Team />
