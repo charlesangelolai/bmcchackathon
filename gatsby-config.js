@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `PantherHacks`,
-    siteUrl: `https://github.com/edwincarbajal/pantherhacks`,
-    description: `PantherHacks II Spring 2020`,
+    title: `BMCCHacks 2020 - April 4`,
+    siteUrl: `https://bmcchacks.surge.sh`,
+    description: `BMCCHacks II Spring 2020`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
