@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import Layout from '../components/layout'
 import About from '../components/about'
+import Location from '../components/location'
 import Itinerary from '../components/itinerary'
 import FAQ from '../components/faq'
 import Sponsors from '../components/sponsors'
@@ -93,6 +94,7 @@ class App extends Component {
         </section>
         <HeaderWaves />
         <About />
+        <Location />
         <Itinerary />
         <FAQ />
         <Sponsors />
