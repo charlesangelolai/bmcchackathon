@@ -1,7 +1,8 @@
 import React from 'react'
 
 export default () => (
-  <section className="hero">
+  <section className="hero is-light">
+    <svg style={{ background: 'white' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="whitesmoke" fillOpacity="1" d="M0,160L80,149.3C160,139,320,117,480,128C640,139,800,181,960,218.7C1120,256,1280,288,1360,304L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     <div className="hero-body">
       <div className="container">
         <h1 className="title has-text-centered">FAQ</h1>
@@ -29,5 +30,6 @@ export default () => (
         </div>
       </div>
     </div>
+    <svg style={{ background: 'white' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="whitesmoke" fillOpacity="1" d="M0,224L60,197.3C120,171,240,117,360,96C480,75,600,85,720,106.7C840,128,960,160,1080,144C1200,128,1320,64,1380,32L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
   </section>
 )

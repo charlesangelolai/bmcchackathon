@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Layout from '../components/layout'
+import Header from '../components/header'
 import About from '../components/about'
 import Location from '../components/location'
 import Itinerary from '../components/itinerary'
@@ -9,10 +10,6 @@ import Sponsors from '../components/sponsors'
 import Team from '../components/team'
 
 import "./styles.scss"
-
-const HeaderWaves = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFF99" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,213.3C672,192,768,128,864,90.7C960,53,1056,43,1152,37.3C1248,32,1344,32,1392,32L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-)
 
 const DEADLINE = new Date("April 4, 2020 00:00:00").getTime();
 class App extends Component {
@@ -74,24 +71,12 @@ class App extends Component {
     const { days, hours, minutes, seconds } = this.state;
     return(
       <Layout>
-        <section className="hero is-success is-medium">
-          <div className="hero-body">
-            <div className="container">
-                <h3 className="subtitle is-3">
-                  BMCCHacks II Spring 2020
-                </h3>
-                <h2 className="title is-2">
-                  {`${days}d ${hours}h ${minutes}m ${seconds}s`}
-                </h2>
-                <p className="is-size-4	">April 4, 2020</p>
-                <p className="is-size-4	">Borough of Manhattan Community College</p>
-                <div className="buttons" style={{ paddingTop: '20px' }}>
-                  <button className="button is-primary is-rounded">Hacker Application</button>
-                </div>
-            </div>
-          </div>
-        </section>
-        <HeaderWaves />
+        <Header
+          days={days}
+          hours={hours}
+          minutes={minutes}
+          seconds={seconds}
+        />
         <About />
         <Location />
         <Itinerary />
@@ -102,5 +87,4 @@ class App extends Component {
     )
   }
 }
-
 export default App
