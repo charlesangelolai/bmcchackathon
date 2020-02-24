@@ -8,8 +8,8 @@ const SecondFooter = () => (
 )
 
 export default () => (
-  <>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#363636" fillOpacity="1" d="M0,224L48,218.7C96,213,192,203,288,208C384,213,480,235,576,245.3C672,256,768,256,864,224C960,192,1056,128,1152,112C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <section className="hero">
+    <svg style={{ background: 'white' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#363636" fillOpacity="1" d="M0,224L48,218.7C96,213,192,203,288,208C384,213,480,235,576,245.3C672,256,768,256,864,224C960,192,1056,128,1152,112C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <footer className="footer has-background-grey-darker has-text-white">
       <div className="content has-text-centered">
         <div className="columns">
@@ -45,5 +45,5 @@ export default () => (
       </div>
     </footer>
     <SecondFooter />
-  </>
+  </section>
 )

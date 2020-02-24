@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () => (
-  <section className="hero is-light has-text-centered">
+  <section className="hero has-text-centered">
     <div className="hero-body">
       <div className="container">
         <h1 className="title">Itinerary</h1>

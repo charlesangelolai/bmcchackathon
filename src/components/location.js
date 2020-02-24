@@ -1,7 +1,8 @@
 import React from 'react'
 
 export default () => (
-  <section className="hero is-medium has-text-centered">
+  <section style={{ }} className="hero is-light has-text-centered">
+    <svg style={{ background: 'white' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="whitesmoke" fillOpacity="1" d="M0,0L80,5.3C160,11,320,21,480,74.7C640,128,800,224,960,250.7C1120,277,1280,235,1360,213.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     <div className="hero-body">
       <div className="container">
         <div className="content">
