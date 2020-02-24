@@ -14,8 +14,13 @@ export default () => (
       <div className="content has-text-centered">
         <div className="columns">
           <div className="column">
-            <h5 className="has-text-white">BMCCHacks II presents:</h5>
-            <h3 className="has-text-white">Spring Sandbox</h3>
+            <h5 className="has-text-white">BMCCHacks II Spring 2020</h5>
+            <address>
+              Borough of Manhattan Community College<br />
+              199 Chambers St<br />
+              New York, NY 10007<br />
+              (212) 220-8000
+            </address>
           </div>
           <div className="column">
             <h5 className="has-text-white is-uppercase">Socials</h5>
@@ -31,7 +36,6 @@ export default () => (
           <div className="column">
             <h5 className="has-text-white is-uppercase">Links</h5>
             <p>Hacker Application</p>
-            <p>Volunteer Application</p>
           </div>
           <div className="column">
             <h6 className="has-text-white">Special thanks to Computer Programming Club and CSI Department!!</h6>

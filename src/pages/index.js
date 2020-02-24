@@ -74,16 +74,15 @@ class App extends Component {
     const { days, hours, minutes, seconds } = this.state;
     return(
       <Layout>
-        <section className="hero is-success is-fullheight">
+        <section className="hero is-success is-medium">
           <div className="hero-body">
             <div className="container">
                 <h3 className="subtitle is-3">
-                  BMCCHacks II presents:
+                  BMCCHacks II Spring 2020
                 </h3>
-                <h2 className="title is-1">
-                  Spring Sandbox
+                <h2 className="title is-2">
+                  {`${days}d ${hours}h ${minutes}m ${seconds}s`}
                 </h2>
-                <p className="is-size-3 has-text-weight-semibold	">{`${days}d ${hours}h ${minutes}m ${seconds}s`}</p>
                 <p className="is-size-4	">April 4, 2020</p>
                 <p className="is-size-4	">Borough of Manhattan Community College</p>
                 <div className="buttons" style={{ paddingTop: '20px' }}>
