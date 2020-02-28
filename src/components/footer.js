@@ -35,7 +35,10 @@ export default () => (
           </div>
           <div className="column">
             <h5 className="has-text-white is-uppercase">Links</h5>
-            <p>Hacker Application</p>
+            <a
+            style={{ textDecoration: 'none', color: 'white' }}
+            href="https://docs.google.com/forms/d/e/1FAIpQLScLZkUNP53tJI7Mq8K70fe3MS0RCMWMAS4JvGN_5qdi0Mrlsg/viewform"
+            target="_blank">Apply Now</a>
           </div>
           <div className="column">
             <h6 className="has-text-white">Special thanks to Computer Programming Club and CSI Department!!</h6>
