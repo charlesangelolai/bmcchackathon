@@ -12,5 +12,6 @@ export default () => (
         </div>
       </div>
     </div>
+    <svg style={{ background: 'white' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="whitesmoke" fillOpacity="1" d="M0,192L80,202.7C160,213,320,235,480,224C640,213,800,171,960,133.3C1120,96,1280,64,1360,48L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
   </section>
 )

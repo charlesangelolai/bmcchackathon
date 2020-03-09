@@ -27,7 +27,7 @@ export default () => (
 
           <h4>How to apply?</h4>
           <p>Fill out the following google form
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScLZkUNP53tJI7Mq8K70fe3MS0RCMWMAS4JvGN_5qdi0Mrlsg/viewform" target="_blank"> here</a>.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScLZkUNP53tJI7Mq8K70fe3MS0RCMWMAS4JvGN_5qdi0Mrlsg/viewform" target="_blank"  rel="noopener noreferrer"> here</a>.</p>
         </div>
       </div>
     </div>

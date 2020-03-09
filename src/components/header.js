@@ -20,7 +20,7 @@ export default (props) => (
               className="button is-primary is-rounded"
               style={{ marginBottom: 0 }}
               href="https://docs.google.com/forms/d/e/1FAIpQLScLZkUNP53tJI7Mq8K70fe3MS0RCMWMAS4JvGN_5qdi0Mrlsg/viewform"
-              target="_blank">Apply Now</a>
+              target="_blank" rel="noopener noreferrer">Apply Now</a>
             </div>
             <p>Applications now open!</p>
           </div>

@@ -38,7 +38,7 @@ export default () => (
             <a
             style={{ textDecoration: 'none', color: 'white' }}
             href="https://docs.google.com/forms/d/e/1FAIpQLScLZkUNP53tJI7Mq8K70fe3MS0RCMWMAS4JvGN_5qdi0Mrlsg/viewform"
-            target="_blank">Apply Now</a>
+            target="_blank" rel="noopener noreferrer">Apply Now</a>
           </div>
           <div className="column">
             <h6 className="has-text-white">Special thanks to Computer Programming Club and CSI Department!!</h6>
