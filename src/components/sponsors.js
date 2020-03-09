@@ -9,7 +9,7 @@ const SponsorUs = () => (
   <section className="hero is-light has-text-centered">
     <div className="hero-body">
       <div className="container">
-        <p>Interested in sponsoring BMCCHacks II? Contact us at {`<email@address>`}</p>
+        <p>Interested in sponsoring BMCCHacks II? Contact us at <a href="mailto:bmcchackathon@gmail.com">bmcchackathon@gmail.com</a>.</p>
       </div>
     </div>
   </section>
@@ -34,7 +34,7 @@ const PastSponsors = () => {
                 <img src={wolfram} width="300" alt="" />
               </div>
           </div>
-          <h1 className="title">Special Thanks To</h1>
+          <h1 className="title">Partners</h1>
           <div className="columns">
             <div className="column">
               <img src={cpc} width="200" alt="" />

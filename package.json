@@ -1,20 +1,26 @@
 {
-  "name": "BMCCHacks",
+  "name": "BMCC Hackathon",
   "private": true,
-  "description": "BMCCHacks II Spring 2020",
+  "description": "BMCC Hackathon Spring 2020",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "bulma": "^0.8.0",
+    "bulma-timeline": "^3.0.4",
     "gatsby": "^2.19.7",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sass": "^2.1.28",
@@ -29,13 +35,14 @@
     "typography-theme-grand-view": "^0.16.19"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/edwincarbajal/bmcchacks"
+    "url": "https://github.com/edwincarbajal/bmcchackathon"
   },
   "bugs": {
-    "url": "https://github.com/edwincarbajal/bmcchacks/issues"
+    "url": "https://github.com/edwincarbajal/bmcchackathon/issues"
   }
 }

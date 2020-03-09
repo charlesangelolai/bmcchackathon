@@ -23,10 +23,11 @@ export default () => (
           <p>Nope! Admission is free and covers food, all the snacks you could ever want, and of course, our sponsors and BMCCHacks will provide you with the free swag and fun times you need to have an amazing weekend!!</p>
 
           <h4>Need a computer?</h4>
-          <p>Contact us before {`<date>`} at {`<email@address>`}.</p>
+          <p>Contact us before {`<date>`} at <a href="mailto:bmcchackathon@gmail.com">bmcchackathon@gmail.com</a>.</p>
 
           <h4>How to apply?</h4>
-          <p>Fill out the following google form here.</p>
+          <p>Fill out the following google form
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScLZkUNP53tJI7Mq8K70fe3MS0RCMWMAS4JvGN_5qdi0Mrlsg/viewform" target="_blank"  rel="noopener noreferrer"> here</a>.</p>
         </div>
       </div>
     </div>

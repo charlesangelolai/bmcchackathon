@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/bmcchackathon",
   siteMetadata: {
-    title: `BMCCHacks II 2020 - April 4`,
-    siteUrl: `https://bmcchacks.surge.sh`,
-    description: `BMCCHacks II Spring 2020`,
+    title: `BMCC Hackathon Spring 2020`,
+    siteUrl: `https://edwincarbajal.github.io/bmcchackathon/`,
+    description: `BMCC Hackathon Spring 2020`,
     author: '@edwincarbajal'
   },
   plugins: [

@@ -8,16 +8,21 @@ export default (props) => (
         <div className="columns">
           <div className="column">
             <h3 className="subtitle is-3">
-              BMCCHacks II Spring 2020
+              BMCCHacks II
             </h3>
             <h2 className="title is-2">
               {`${props.days}d ${props.hours}h ${props.minutes}m ${props.seconds}s`}
             </h2>
             <p className="is-size-4	">April 4, 2020</p>
             <p className="is-size-4	">Borough of Manhattan Community College</p>
-            <div className="buttons" style={{ paddingTop: '20px' }}>
-              <button className="button is-primary is-rounded">Hacker Application</button>
+            <div className="buttons" style={{ paddingTop: '20px', marginBottom: 0 }}>
+              <a
+              className="button is-primary is-rounded"
+              style={{ marginBottom: 0 }}
+              href="https://docs.google.com/forms/d/e/1FAIpQLScLZkUNP53tJI7Mq8K70fe3MS0RCMWMAS4JvGN_5qdi0Mrlsg/viewform"
+              target="_blank" rel="noopener noreferrer">Apply Now</a>
             </div>
+            <p>Applications now open!</p>
           </div>
           <div className="column">
             <img src={devFocus} alt="" />
