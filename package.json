@@ -1,11 +1,10 @@
 {
-  "name": "BMCC Hackathon",
+  "name": "BMCCHackathon",
   "private": true,
   "description": "BMCC Hackathon Spring 2020",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -13,6 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",

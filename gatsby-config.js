@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/bmcchackathon",
+  pathPrefix: `/bmcchackathon`,
   siteMetadata: {
     title: `BMCC Hackathon Spring 2020`,
     siteUrl: `https://edwincarbajal.github.io/bmcchackathon/`,
