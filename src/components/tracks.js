@@ -17,7 +17,7 @@ export default () => (
             <div className="tile is-parent">
               <article className="tile is-child box">
                   <figure className="image is-square">
-                    <img src={sustainability} />
+                    <img alt="" src={sustainability} />
                   </figure>
                  <p className="title">Sustainability</p>
                  <div className="content">
@@ -28,7 +28,7 @@ export default () => (
             <div className="tile is-parent">
               <article className="tile is-child box">
                   <figure className="image is-square">
-                    <img src={accessibility} />
+                    <img alt="" src={accessibility} />
                   </figure>
                   <p className="title">Accessibility</p>
                   <div className="content">
@@ -39,7 +39,7 @@ export default () => (
             <div className="tile is-parent">
               <article className="tile is-child box">
                   <figure className="image is-square">
-                    <img src={education} />
+                    <img alt="" src={education} />
                   </figure>
                   <p className="title">Education</p>
                   <div className="content">
@@ -50,7 +50,7 @@ export default () => (
             <div className="tile is-parent">
               <article className="tile is-child box">
                   <figure className="image is-square">
-                    <img src={health} />
+                    <img alt="" src={health} />
                   </figure>
                   <p className="title">Health</p>
                   <div className="content">
