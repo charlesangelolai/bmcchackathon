@@ -14,7 +14,7 @@ export default () => (
       <div className="content has-text-centered">
         <div className="columns">
           <div className="column">
-            <h5 className="has-text-white">BMCCHacks II Spring 2020</h5>
+            <h5 className="has-text-white">BMCC Hackathon Spring 2020</h5>
             <address>
               Borough of Manhattan Community College<br />
               199 Chambers St<br />
@@ -30,8 +30,8 @@ export default () => (
             <p>Medium</p>
           </div>
           <div className="column">
-            <h5 className="is-uppercase has-text-white">Past Years</h5>
-            <a href="https://bmcchackathon.github.io/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'white' }}>BMCCHacks 2019</a>
+            <h5 className="is-uppercase has-text-white">Archives</h5>
+            <a href="https://bmcchackathon.github.io/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'white' }}>BMCC Hackathon 2019</a>
           </div>
           <div className="column">
             <h5 className="has-text-white is-uppercase">Links</h5>
@@ -41,8 +41,8 @@ export default () => (
             target="_blank" rel="noopener noreferrer">Apply Now</a>
           </div>
           <div className="column">
-            <h6 className="has-text-white">Special thanks to Computer Programming Club and CSI Department!!</h6>
-            <p>Copyright &copy; 2020 BMCCHacks.</p>
+            <h6 className="has-text-white">Special thanks to Computer Programming Club and Center for Career Development!!</h6>
+            <p>Copyright &copy; 2020 BMCC Hackathon.</p>
           </div>
         </div>
       </div>

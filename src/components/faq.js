@@ -1,14 +1,14 @@
 import React from 'react'
 
 export default () => (
-  <section className="hero is-light">
+  <section id="faq" className="hero is-light">
     <svg style={{ background: 'white' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="whitesmoke" fillOpacity="1" d="M0,160L80,149.3C160,139,320,117,480,128C640,139,800,181,960,218.7C1120,256,1280,288,1360,304L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     <div className="hero-body">
       <div className="container">
         <h1 className="title has-text-centered">FAQ</h1>
         <div className="content">
           <h4>What is a Hackathon?</h4>
-          <p>A hackathon is a marathon software and hardware product creation event. At BMCCHacks, you can look forward to amazing guest speakers, helpful workshops, tons of skilled mentors, and, of course, fun games and great food.</p>
+          <p>A hackathon is a marathon software and hardware product creation event. At the BMCC Hackathon, you can look forward to amazing guest speakers, helpful workshops, tons of skilled mentors, and, of course, fun games and great food.</p>
 
           <h4>Who can attend?</h4>
           <p>All BMCC undergraduate and alumni are welcome.</p>
@@ -20,7 +20,7 @@ export default () => (
           <p>The maximum team members permitted per group is 4 humans and the minimum is two humans.</p>
 
           <h4>Will this cost me money?</h4>
-          <p>Nope! Admission is free and covers food, all the snacks you could ever want, and of course, our sponsors and BMCCHacks will provide you with the free swag and fun times you need to have an amazing weekend!!</p>
+          <p>Nope! Admission is free and covers food, all the snacks you could ever want, and of course, our sponsors and the BMCC Hackathon will provide you with the free swag and fun times you need to have an amazing weekend!!</p>
 
           <h4>Need a computer?</h4>
           <p>Contact us before {`<date>`} at <a href="mailto:bmcchackathon@gmail.com">bmcchackathon@gmail.com</a>.</p>

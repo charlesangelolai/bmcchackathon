@@ -9,7 +9,7 @@ const SponsorUs = () => (
   <section className="hero is-light has-text-centered">
     <div className="hero-body">
       <div className="container">
-        <p>Interested in sponsoring BMCCHacks II? Contact us at <a href="mailto:bmcchackathon@gmail.com">bmcchackathon@gmail.com</a>.</p>
+        <p>Interested in sponsoring the BMCC Hackathon 2020? Contact us at <a href="mailto:bmcchackathon@gmail.com">bmcchackathon@gmail.com</a>.</p>
       </div>
     </div>
   </section>
@@ -51,7 +51,7 @@ const PastSponsors = () => {
 
 export default () => (
   <>
-    <section className="hero has-text-centered">
+    <section id="sponsors" className="hero has-text-centered">
       <div className="hero-body">
         <div className="container">
           <h1 className="title">Sponsors</h1>

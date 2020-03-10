@@ -7,7 +7,7 @@ import mehmet from '../images/people/mehmet_sahin.jpg'
 
 export default () => (
   <>
-    <section className="hero is-medium has-text-centered">
+    <section id="team" className="hero is-medium has-text-centered">
       <div className="hero-body">
         <div className="container">
           <h1 className="title" style={{ paddingBottom: '50px' }}>Meet The Team</h1>
@@ -54,7 +54,7 @@ export default () => (
               <img alt="" className="is-rounded" src={mehmet} />
             </figure>
             <p className="has-text-weight-bold">Mehmet Sahin</p>
-            <p>Co-Founder of BMCCHacks</p>
+            <p>Co-Founder of the BMCC Hackathon</p>
             <p>Computer Science, 2019</p>
             <p><a style={{ color: 'black', textDecoration: 'underline' }}href="https://www.linkedin.com/in/mehmetshin/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
           </div>
