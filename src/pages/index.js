@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
 import Layout from '../components/layout'
-import Header from '../components/header'
+import Landing from '../components/landing'
+import Counter from '../components/counter'
 import About from '../components/about'
-import Location from '../components/location'
+import Tracks from '../components/tracks'
+import Map from '../components/map'
 import Itinerary from '../components/itinerary'
 import FAQ from '../components/faq'
 import Sponsors from '../components/sponsors'
@@ -71,14 +73,16 @@ class App extends Component {
     const { days, hours, minutes, seconds } = this.state;
     return(
       <Layout>
-        <Header
+        <Landing />
+        <Counter
           days={days}
           hours={hours}
           minutes={minutes}
           seconds={seconds}
         />
         <About />
-        <Location />
+        <Tracks />
+        <Map />
         <Itinerary />
         <FAQ />
         <Sponsors />
